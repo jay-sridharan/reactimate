@@ -1,6 +1,6 @@
 var React = require("react");
 var getDisplayName = require( 'react-display-name');
-var merge = require( 'lodash/merge');
+var merge = require( 'lodash.merge');
 var classnames = require( 'classnames');
 var actions = require("./transitionActions.js");
 function transition(WrappedComponent, options) {
