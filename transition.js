@@ -43,7 +43,7 @@ function transition(WrappedComponent, options) {
       }));
       setTimeout(()=>{
         if(optionSlice.transitionComplete){
-          optionSlice.transitionEnd(transitionState,dispatch);
+          optionSlice.transitionComplete(transitionState,dispatch);
         }
         dispatch(actions.transitionComplete(this.state.key))
         this.resetState();
