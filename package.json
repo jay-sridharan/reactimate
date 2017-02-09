@@ -1,5 +1,5 @@
 {
-  "name": "react-css-transition",
+  "name": "reactimate",
   "version": "1.0.0",
   "description": "HOC utilizing TransitionGroup to transition on route change",
   "main": "index.js",
@@ -10,11 +10,11 @@
   "license": "ISC",
   "repository" : {
     "type" : "git",
-     "url" : "git+https://github.com/jayasurya-sridharan/react-css-transitions.git"
+     "url" : "git+https://github.com/jayasurya-sridharan/reactimate.git"
   },
   "main": "index.js",
   "bugs": {
-    "url": "https://github.com/jayasurya-sridharan/react-css-transitions/issues"
+    "url": "https://github.com/jayasurya-sridharan/reactimate/issues"
   },
   "dependencies": {
     "classnames": "^2.2.5",

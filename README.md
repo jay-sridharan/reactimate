@@ -1,8 +1,8 @@
-# react-css-transitions
+# reactimate
 
 ### A simple React + Redux + React Router HOC
 
-react-css-transitions allows you to define css classes to be applied to an object when entering and when leaving.
+reactimate allows you to define css classes to be applied to an object when entering and when leaving.
 
 
 ### Lets say we have two components:
@@ -57,7 +57,7 @@ Every time the route changes, there is a sudden jump in content, from Home to Ar
 
 ```jsx
 import React from 'react';
-import {transition} from 'react-css-transition';
+import {transition} from 'reactimate';
 
 class Home extends React.Component{
 	render(){
@@ -77,7 +77,7 @@ export default transition(Home, {
 
 ```jsx
 import React from 'react';
-import {transition} from 'react-css-transition';
+import {transition} from 'reactimate';
 
 export default class Article extends React.Component{
 	render(){
@@ -99,7 +99,7 @@ export default transition(Article, {
 ```jsx
 import React from 'react';
 import {Router, Route, IndexRoute } from 'react-router'
-import {TransitionContainer} from 'react-css-transition';
+import {TransitionContainer} from 'reactimate';
 
 export let Router = (
 	<Router>
@@ -117,7 +117,7 @@ export let Router = (
 ```jsx
 import { createStore, combineReducers} from 'redux'
 import { routerReducer} from 'react-router-redux'
-import { transitionReducer} from 'react-css-transition'
+import { transitionReducer} from 'reactimate'
 
 export default createStore(
   combineReducers({
