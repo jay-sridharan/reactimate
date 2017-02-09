@@ -16,6 +16,17 @@
   "bugs": {
     "url": "https://github.com/jayasurya-sridharan/reactimate/issues"
   },
+  "keywords" : [
+    "react",
+    "css",
+    "transition",
+    "ReactTransitionGroup",
+    "TransitionGroup",
+    "animation",
+    "page",
+    "router",
+    "redux"
+  ]
   "dependencies": {
     "classnames": "^2.2.5",
     "lodash.merge": "^4.6.0",
