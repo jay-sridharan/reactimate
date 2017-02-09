@@ -1,13 +1,21 @@
 {
-  "name": "css-transition",
+  "name": "react-css-transition",
   "version": "1.0.0",
   "description": "HOC utilizing TransitionGroup to transition on route change",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jay Sridharan",
+  "author": "Jay Sridharan <jayasurya.sridharan@gmail.com>",
   "license": "ISC",
+  "repository" : {
+    "type" : "git",
+     "url" : "git+https://github.com/jayasurya-sridharan/react-css-transitions.git"
+  },
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/jayasurya-sridharan/react-css-transitions/issues"
+  },
   "dependencies": {
     "classnames": "^2.2.5",
     "lodash.merge": "^4.6.0",
