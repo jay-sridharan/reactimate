@@ -1,11 +1,10 @@
 var React = require("react");
-var getDisplayName = require( 'react-display-name');
 var merge = require( 'lodash.merge');
 var classnames = require( 'classnames');
 var actions = require("./transitionActions.js");
 function transition(WrappedComponent, options) {
   return class Transition extends React.Component {
-    static displayName = `Transition(${getDisplayName(WrappedComponent)})`;
+    static displayName = `Transition(${(WrappedComponent).displayName})`;
     constructor(props) {
       super(props);
       this.state = {

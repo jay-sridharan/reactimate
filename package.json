@@ -1,10 +1,10 @@
 {
   "name": "reactimate",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "HOC utilizing TransitionGroup to transition on route change",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel src --out-dir lib --presets es2015,react,stage-2 "
   },
   "author": "Jay Sridharan <jayasurya.sridharan@gmail.com>",
   "license": "ISC",
@@ -29,15 +29,16 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "lodash.merge": "^4.6.0",
-    "react": "^15.4.2",
-    "react-addons-transition-group": "^15.4.2",
-    "react-display-name": "^0.2.0",
-    "react-redux": "^5.0.2",
-    "redux": "^3.6.0"
+    "react-addons-transition-group": "^15.4.2"
   },
   "devDependencies" :{
     "babel-core": "^6.22.1",
     "babel-loader": "^6.2.10",
     "webpack": "^2.2.1"
+  },
+  "peerDependencies": {
+    "react": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0"
   }
 }
