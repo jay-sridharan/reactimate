@@ -66,7 +66,7 @@ class Home extends React.Component{
 }
 
 export default transition(Home, {
-	key: home,
+	key: "home",
     willEnter: {classNames: "animated fadeInRightBig"},
     willLeave: {classNames: "animated fadeOutRightBig}",
     duration: 1000
@@ -86,7 +86,7 @@ export default class Article extends React.Component{
 }
 
 export default transition(Article, {
-	key: home,
+	key: "article",
     willEnter: {classNames: "animated fadeInLeftBig"},
     willLeave: {classNames: "animated fadeOutLeftBig"},
     duration: 1000
